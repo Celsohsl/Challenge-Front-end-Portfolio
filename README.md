@@ -2,14 +2,14 @@
 
 
 <div align ="center">
- <img  src="https://github.com/Celsohsl/Challenge-Oracle-ONE-Alura-Jogo-da-forca/blob/main/readme_images/share_image1.jpg" />
+ <img  src="https://github.com/Celsohsl/Challenge-Front-end-Portfolio/blob/main/readme-img/banner-topo.jpg" />
 </div> 
 
-<h2 align ="center">Screenshots</h2>
+<h2 align ="center">Screenshot</h2>
 
 
 <div align ="center">
- <img src="" />
+ <img src="https://github.com/Celsohsl/Challenge-Front-end-Portfolio/blob/main/readme-img/main.png" />
 </div>
  
  
