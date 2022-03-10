@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  outline: none;
+  font-family: "Raleway", sans-serif;
+}
+
+:root {
+  --grayscale:#f5f5f5;
+  --write:#ffffff;
+  --blue: #c3dcff;
+  --black: #464646;
+}
+
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+body{
+  color: var(--black);
+  background-color: var(--grayscale);
+}
+
+header {
+  width: 100%;
+  height: 88px;
+}
+
+/* Topo_Nav */
+.topo-area{
+  height: 100%;
+  display: flex;
+  padding: 0px 75px;
+}
+
+.logo-area {
+  width: 180px;
+  display: flex;
+  align-items: center;
+}
+
+.logo-area p{
+  font-weight: bold;
+  padding: 15px;
+}
+
+.menu-area {
+  display: flex;
+  justify-content: flex-end;
+  flex: 1;
+}
+
+.menu-area nav ul{
+  height: 100%;
+  display: flex;
+}
+
+.menu-area nav ul li{
+  display: flex;
+  align-items: center;
+}
+
+.menu-area nav ul li a{
+  color: var(--black);
+  text-decoration: none;
+  padding: 0px 20px;
+}
+
+.menu-area a:hover{
+  color: #2A7AE4;
+}
+
+.menu-area nav ul li:last-child{
+  font-weight: bold;
+}
+
+/*Topo_apresentação */
+.topo-apresentacao{
+  height: 370px;
+  display: flex;
+  padding: 0px 75px;
+  align-items: center;
+  margin: 50px 0 70px 0;
+}
+
+h1{
+  font-size:50px;
+  font-weight: bold;
+}
+
+.nome-apresentacao p{
+  width: 751px;
+  font-size: 22px;
+}
+
+.nome-apresentacao a:hover{
+  color: #2A7AE4;
+}
+
+.redes-sociais{
+  display: flex;
+  list-style: none;
+  margin-top: 26px;
+}
+
+.redes-sociais li a{
+  margin-right: 35px;
+  text-decoration: none;
+  color: var(--black);
+}
+
+.redes-sociais li ::after{
+  content: url(../images/seta.png);
+  margin-left: 5px;  
+}
+
+.foto-topo{
+  display: flex;
+  justify-content: flex-end;
+  width: 25%;
+  border-radius: 50%;
+  box-shadow: 1px 0px 10px 0px rgba(70, 69, 69, 0.993);
+}
+
+/* Main_sobre mim */
+.sobremim{
+  display: flex;
+  height: 383px;
+  background-color: var(--blue);
+  flex-direction: column;
+  justify-content: center;
+  padding: 0px 75px;
+  margin-bottom: 32px;
+}
+
+.sobremim h2{
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.sobremim p{
+  font-size: 18px;
+  width: 751px;
+  margin-top: 16px;
+  font-weight: 400;
+}
+
+.sobremim img{
+  margin-top: 16px;
+  width: 140px;
+}
+
+/* Área skills/hobbies */
+.skills-hobbies h2, .formacao-area h2, .projetos h2{
+  font-size: 32px;
+  display: flex;
+  justify-content: center;
+}
+
+.skills-hobbies{
+  display: flex;
+  height: 694px;
+  flex-direction: column;
+}
+
+.skills, .hobbies{
+  height: 244px;
+  display: flex;
+  justify-content: space-between;
+  margin: 32px 75px 88px;
+}
+
+.skill, .hobbie{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 200px;
+  height: 200px;
+  padding: 0px 0px 16px 16px;
+  background-color: var(--write);
+}
+
+.skills i, .hobbies i{
+  font-size: 35px;
+  margin-bottom: 8px;
+  color: #2A7AE4;
+}
+
+.skills p, .hobbies p{
+  font-weight: bold;
+}
+
+/* Área formação */
+.formacao-area{
+  height: 581px;
+  display: flex;
+  flex-direction: column;
+  background: var(--blue);
+  padding-top: 82px;
+  margin-bottom: 32px;
+}
+
+.formacao{
+  height: 347px;
+  display: flex;
+  justify-content: space-between;
+  margin: 32px 75px 88px;
+}
+
+.card{
+  width: 455px;
+  height: 286px;
+  background-color: var(--write);
+}
+
+.card-img{
+  height: 286px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Area experiencias */
+.projeto-codificador, .projeto-jogo-forca, .projeto-clone-netflix, .projeto-contador{
+  margin: 32px 75px 35px;
+  align-items: center;
+  display: flex;
+  height: 406px;
+}
+
+.projeto-jogo-forca, .projeto-contador{
+  flex-direction: row-reverse;
+}
+
+.informacao{
+  margin-left: 30px;
+  width: 348px;
+  flex-direction: column;
+}
+
+.informacao p,.formacao p{
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 22px;
+}
+
+.botoes{
+  margin-top: 10px;
+}
+
+.btn-repositorio{
+  border: 1px solid;
+  cursor: pointer;
+  background-color: transparent;
+  color: #2A7AE4;
+  padding: 16px;
+  margin-right: 16px;
+}
+
+.btn-demo{
+  border: none;
+  cursor: pointer;
+  background-color: #2A7AE4;
+  color: var(--write);
+  padding: 16px;
+}
+
+/* Área-contato */
+.contato{
+  padding: 100px 75px 50px;
+  display: flex;
+  background-color:var(--blue) ;
+}
+
+.contato-title{
+  margin-left: 16px;
+  width: 100%;
+}
+
+.contato-title h2{
+  font-size: 32px;
+  margin-bottom: 8px;
+}
+
+.contato-title p{
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.contato-title :nth-child(3){
+  margin-bottom: 30px;
+}
+
+form{
+  height: 570px;
+  flex-direction: column;
+  display: flex;
+  justify-content: space-between;
+}
+
+.input-padrao{
+  border: none;
+  border-radius: 4px;
+  height: 56px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.input-padrao:focus, .input-texto:focus, .input-email:focus {
+  border-bottom: 2px solid #2A7AE4;
+}
+
+.input-email{
+  border: none;
+  border-radius: 4px;
+  height: 56px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.input-texto{
+  border: none;
+  border-radius: 4px;
+  height: 160px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.btn-enviar{
+  border: none;
+  color: #ffffff;
+  background: #2a7ae4;
+  width: 165px;
+  height: 51px;
+  cursor: pointer;
+}
+
+.btn-enviar i {
+  margin-left: 8px;
+  opacity: 85%;
+}
+
+footer{
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
