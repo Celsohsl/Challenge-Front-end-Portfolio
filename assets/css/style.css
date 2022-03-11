@@ -8,13 +8,6 @@
   font-family: "Raleway", sans-serif;
 }
 
-:root {
-  --grayscale:#f5f5f5;
-  --write:#ffffff;
-  --blue: #c3dcff;
-  --black: #464646;
-}
-
 html,
 body {
   width: 100%;
@@ -22,8 +15,8 @@ body {
 }
 
 body{
-  color: var(--black);
-  background-color: var(--grayscale);
+  color: #464646;
+  background-color: #f5f5f5;
 }
 
 header {
@@ -66,7 +59,7 @@ header {
 }
 
 .menu-area nav ul li a{
-  color: var(--black);
+  color: #464646;
   text-decoration: none;
   padding: 0px 20px;
 }
@@ -90,6 +83,7 @@ header {
 
 h1{
   font-size:50px;
+  margin-bottom: 25px;
   font-weight: bold;
 }
 
@@ -131,7 +125,7 @@ h1{
 .sobremim{
   display: flex;
   height: 383px;
-  background-color: var(--blue);
+  background-color: #c3dcff;
   flex-direction: column;
   justify-content: center;
   padding: 0px 75px;
@@ -182,7 +176,7 @@ h1{
   width: 200px;
   height: 200px;
   padding: 0px 0px 16px 16px;
-  background-color: var(--write);
+  background-color: #ffffff;
 }
 
 .skills i, .hobbies i{
@@ -200,7 +194,7 @@ h1{
   height: 581px;
   display: flex;
   flex-direction: column;
-  background: var(--blue);
+  background: #c3dcff;
   padding-top: 82px;
   margin-bottom: 32px;
 }
@@ -213,9 +207,9 @@ h1{
 }
 
 .card{
-  width: 455px;
+  width: 585px;
   height: 286px;
-  background-color: var(--write);
+  background-color: #ffffff;
 }
 
 .card-img{
@@ -267,7 +261,7 @@ h1{
   border: none;
   cursor: pointer;
   background-color: #2A7AE4;
-  color: var(--write);
+  color: #ffffff;
   padding: 16px;
 }
 
@@ -275,7 +269,7 @@ h1{
 .contato{
   padding: 100px 75px 50px;
   display: flex;
-  background-color:var(--blue) ;
+  background-color:#c3dcff;
 }
 
 .contato-title{
