@@ -10,13 +10,10 @@
 
 html,
 body {
-  width: 100%;
-  overflow-x: hidden;
-}
-
-body{
   color: #464646;
   background-color: #f5f5f5;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 header {
@@ -31,69 +28,67 @@ header {
   padding: 0px 75px;
 }
 
-.logo-area {
+.logo-nav {
   width: 180px;
   display: flex;
   align-items: center;
 }
 
-.logo-area p{
+.logo-nav p{
   font-weight: bold;
   padding: 15px;
 }
 
-.menu-area {
+.menu-nav {
   display: flex;
   justify-content: flex-end;
   flex: 1;
 }
 
-.menu-area nav ul{
+.menu-nav nav ul{
   height: 100%;
   display: flex;
 }
 
-.menu-area nav ul li{
+.menu-nav nav ul li{
   display: flex;
   align-items: center;
 }
 
-.menu-area nav ul li a{
+.menu-nav nav ul li a{
+  font-weight: 500;
   color: #464646;
   text-decoration: none;
   padding: 0px 20px;
 }
 
-.menu-area a:hover{
-  color: #2A7AE4;
-}
-
-.menu-area nav ul li:last-child{
-  font-weight: bold;
+.menu-nav a:hover{
+  color: #66C9C7;
 }
 
 /*Topo_apresentação */
 .topo-apresentacao{
+  background: url(../images/banner-topo.png);
+  background-size: 100%;
   height: 370px;
   display: flex;
   padding: 0px 75px;
   align-items: center;
-  margin: 50px 0 70px 0;
 }
 
 h1{
-  font-size:50px;
-  margin-bottom: 25px;
+  font-size: 48px;
   font-weight: bold;
 }
 
 .nome-apresentacao p{
   width: 751px;
   font-size: 22px;
+  margin-top: 50px;
 }
 
 .nome-apresentacao a:hover{
-  color: #2A7AE4;
+  color: #66C9C7;
 }
 
 .redes-sociais{
@@ -105,7 +100,7 @@ h1{
 .redes-sociais li a{
   margin-right: 35px;
   text-decoration: none;
-  color: var(--black);
+  color: #464646;
 }
 
 .redes-sociais li ::after{
@@ -114,9 +109,8 @@ h1{
 }
 
 .foto-topo{
-  display: flex;
-  justify-content: flex-end;
   width: 25%;
+  margin-top: 32px;
   border-radius: 50%;
   box-shadow: 1px 0px 10px 0px rgba(70, 69, 69, 0.993);
 }
@@ -124,7 +118,7 @@ h1{
 /* Main_sobre mim */
 .sobremim{
   display: flex;
-  height: 383px;
+  height: 420px;
   background-color: #c4d4eb8c;
   flex-direction: column;
   justify-content: center;
@@ -180,9 +174,9 @@ h1{
 }
 
 .skills i, .hobbies i{
-  font-size: 35px;
+  font-size: 45px;
   margin-bottom: 8px;
-  color: #2A7AE4;
+  color: #7b7b7d;
 }
 
 .skills p, .hobbies p{
@@ -221,14 +215,14 @@ h1{
 }
 
 /* Area experiencias */
-.projeto-codificador, .projeto-jogo-forca, .projeto-clone-netflix, .projeto-contador{
+.projeto-codificador,.projeto-jogo-forca, .projeto-clone-netflix, .projeto-contador{
   margin: 32px 75px 35px;
   align-items: center;
   display: flex;
   height: 406px;
 }
 
-.projeto-jogo-forca, .projeto-contador{
+.projeto-jogo-forca,.projeto-contador{
   flex-direction: row-reverse;
 }
 
@@ -265,7 +259,7 @@ h1{
 .btn-demo{
   border: none;
   cursor: pointer;
-  background-color: #2A7AE4;
+  background-color: #00cac8;
   color: #ffffff;
   padding: 16px;
 }
@@ -279,7 +273,7 @@ h1{
 .contato{
   padding: 100px 75px 50px;
   display: flex;
-  background-color:#c4d4eb8c;
+  background-color:#c4d4eb;
 }
 
 .contato-title{
@@ -317,7 +311,7 @@ form{
 }
 
 .input-padrao:focus, .input-texto:focus, .input-email:focus {
-  border-bottom: 2px solid #2A7AE4;
+  border-bottom: 1.5px solid #00cac8;
 }
 
 .input-email{
@@ -351,10 +345,12 @@ form{
 }
 
 footer{
+  background-image: url(../images/banner-rodape.png);
+  background-size: 100%;
   font-size: 18px;
   font-weight: bold;
   display: flex;
-  height: 100px;
+  height: 80px;
   align-items: center;
   justify-content: center;
   flex-direction: column;
