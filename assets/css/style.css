@@ -81,10 +81,13 @@ h1{
   font-weight: bold;
 }
 
+.nome-apresentacao{
+  margin-bottom: 55px;
+}
+
 .nome-apresentacao p{
   width: 751px;
   font-size: 22px;
-  margin-top: 50px;
 }
 
 .nome-apresentacao a:hover{
@@ -110,7 +113,6 @@ h1{
 
 .foto-topo{
   width: 25%;
-  margin-top: 32px;
   border-radius: 50%;
   box-shadow: 1px 0px 10px 0px rgba(70, 69, 69, 0.993);
 }
@@ -271,7 +273,7 @@ h1{
 
 /* Área-contato */
 .contato{
-  padding: 100px 75px 50px;
+  padding: 100px 75px 64px;
   display: flex;
   background-color:#c4d4eb;
 }
@@ -291,15 +293,19 @@ h1{
   font-weight: 600;
 }
 
-.contato-title :nth-child(3){
-  margin-bottom: 30px;
-}
-
 form{
   height: 570px;
   flex-direction: column;
   display: flex;
   justify-content: space-between;
+}
+
+label{
+  font-size: 17px;
+}
+
+label:first-child{
+  margin-top: 30px;
 }
 
 .input-padrao{
@@ -314,19 +320,11 @@ form{
   border-bottom: 1.5px solid #00cac8;
 }
 
-.input-email{
-  border: none;
-  border-radius: 4px;
-  height: 56px;
-  margin-bottom: 20px;
-  padding: 10px;
-}
-
 .input-texto{
   border: none;
   border-radius: 4px;
   height: 160px;
-  margin-bottom: 20px;
+  margin-bottom: 32px;
   padding: 10px;
 }
 

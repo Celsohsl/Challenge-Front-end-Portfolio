@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -180,7 +181,8 @@
                     <div class="botoes">
                         <a href="https://github.com/Celsohsl/Introducao-ao-JavaScript-contador"><button
                                 class="btn-repositorio">Repositório</button></a>
-                        <a href="https://celsohsl.github.io/Introducao-ao-JavaScript-contador/"><button class="btn-demo">Ver
+                        <a href="https://celsohsl.github.io/Introducao-ao-JavaScript-contador/"><button
+                                class="btn-demo">Ver
                                 demo</button></a>
                     </div>
                 </div>
@@ -193,13 +195,20 @@
             <div class="contato-title">
                 <h2>Contato</h2>
                 <p>Quer entrar em contato comigo?</p>
-                <p>Preencha o formulário ao lado e entrarei em contato o mais rápido possível.</p>
+                <p>Preencha o formulário a baixo e entrarei em contato o mais rápido possível.</p>
                 <form>
-                    <input type="text" id="nomesobrenome" class="input-padrao" required placeholder="Nome sobrenome">
-                    <input type="email" id="email" class="input-email" required placeholder="E-mail">
-                    <input type="text" id="assunto" class="input-padrao" required placeholder="Assunto">
-                    <textarea name="" id="mensagem" cols="70" rows="10" class="input-texto" required
-                        placeholder="Mensagem"></textarea>
+                    <label for="nomesobrenome">Nome e sobrenome</label>
+                    <input type="text" id="nomesobrenome" class="input-padrao" required>
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+
+                    <label for="assunto">Assunto</label>
+                    <input type="text" id="assunto" class="input-padrao" required>
+
+                    <label for="mensagem">Mensagem</label>
+                    <textarea name="" id="mensagem" cols="70" rows="10" class="input-texto" required></textarea>
+
                     <button type="submit" class="btn-enviar">Enviar<i class="fa-solid fa-paper-plane"></i></button>
                 </form>
             </div>
@@ -213,4 +222,5 @@
     </footer>
     <script src="https://kit.fontawesome.com/bc12539857.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
