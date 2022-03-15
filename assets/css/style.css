@@ -69,7 +69,7 @@ header {
 /*Topo_apresentação */
 .topo-apresentacao{
   background: url(../images/banner-topo.png);
-  background-size: 100%;
+  background-size: 100% 100%;
   height: 370px;
   display: flex;
   padding: 0px 75px;
@@ -346,7 +346,7 @@ form{
 
 footer{
   background-image: url(../images/banner-rodape.png);
-  background-size: 100%;
+  background-size: 100% 100%;
   font-size: 18px;
   font-weight: bold;
   display: flex;
