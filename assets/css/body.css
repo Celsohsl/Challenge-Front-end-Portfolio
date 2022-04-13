@@ -1,0 +1,360 @@
+/* Top-nav
+   ========================================================================== */
+.header {
+  height: 88px;
+}
+
+.header__content{
+  display: flex;
+  height: 100%;
+  padding: 0 4.688rem;
+}
+
+.header__logo {
+  align-items: center;
+  display: flex;
+  width: 180px;
+}
+
+.header__name{
+  font-weight: bold;
+  padding: 1rem;
+}
+
+.header-nav__content{
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+}
+
+.nav-list {
+  display: flex;
+  height: 100%;
+}
+
+.list__item {
+  align-items: center;
+  display: flex;
+}
+
+.list__link {
+  color: #464646;
+  font-weight: 500;
+  padding: 0 1.25rem;
+  text-decoration: none;
+}
+
+.list__link:hover{
+  color: #2A7AE4;
+}
+
+/* Banner-Area
+   ========================================================================== */
+.banner{
+  align-items: center;
+  background: url(../images/banner-topo.png);
+  background-size: 100% 100%;
+  display: flex;
+  height: 400px;
+  padding: 0 4.688rem;
+}
+
+.banner__title{
+  font-size: 48px;
+  font-weight: bold;
+  margin: 2.625rem 0;
+}
+
+.banner__content{
+  margin-bottom: 3.438rem;
+}
+
+.banner__description{
+  font-size: 1.375rem;
+  width: 751px;
+}
+
+.banner__list{
+  display: flex;
+  list-style: none;
+  margin-top: 2rem;
+}
+
+.banner__itens ::after{
+  content: url(../images/seta.png);
+  margin-left: 0.313rem;    
+}
+
+.banner__link{
+  color: #464646;
+  margin-right: 2.188rem;
+  text-decoration: none;
+}
+
+.banner__link:hover{
+  color: #f5f5f5;
+}
+
+.banner__Photograph{
+  border-radius: 50%;
+  box-shadow: 1px 0px 10px 0px rgba(70, 69, 69, 0.993);
+  margin-right: 1.25rem;
+  width: 25%;
+}
+
+/* About me
+   ========================================================================== */
+.about-me{
+  background-color: #c4d4eb8c;
+  display: flex;
+  flex-direction: column;
+  height: 420px;
+  justify-content: center;
+  margin-bottom: 2rem;
+  padding: 0 4.688rem;
+}
+
+.about-me__title{
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.about-me__description{
+  font-size: 1.125rem;
+  margin-top: 1rem;
+  width: 60%;
+}
+
+.about-me__image{
+  margin-top: 1rem;
+  width: 140px;
+}
+
+/* Area Skills / Hobbies
+   ========================================================================== */
+.skills-hobbies{
+  display: flex;
+  flex-direction: column;
+  height: 694px;
+}
+
+.skills__title, .hobbies__title, .academic-education__title, .project__title{
+  display: flex;
+  font-size: 2rem;
+  justify-content: center;
+}
+
+.skills__content, .hobbies__content{
+  display: flex;
+  height: 244px;
+  justify-content: space-between;
+  margin: 2rem 4.688rem 5.5rem;
+}
+
+.skill__card, .hobbie__card{
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px rgb(0 0 0 / 50%);
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  justify-content: flex-end;
+  overflow: hidden;
+  padding: 0 0 1rem 1rem;
+  transition: 0.3s;
+  width: 200px;
+}
+
+.skill__card:hover, .hobbie__card:hover{
+  transform: scale3d(1.1, 1.1, 1);
+}
+
+.fa-brands, .fa-solid{
+  color: #7b7b7d;
+  font-size: 2.813rem;
+  margin-bottom: 0.5rem;
+}
+
+.skill__text, .hobbie__text{
+  font-weight: bold;
+}
+
+/* Academic Education 
+   ========================================================================== */
+.academic-education{
+  background: #c4d4eb8c;
+  display: flex;
+  flex-direction: column;
+  height: 581px;
+  margin-bottom: 2rem;
+  padding-top: 5.125rem;
+}
+
+.academic-education__content{
+  display: flex;
+  height: 347px;
+  justify-content: space-between;
+  margin: 2rem 4.688rem 5.5rem;
+}
+
+.card{
+  background-color: #ffffff;
+  height: 286px;
+  width: 585px;
+}
+
+.card__img{
+  align-items: center;
+  display: flex;
+  height: 286px;
+  justify-content: center;
+  margin-bottom: 1.25rem;
+}
+
+/* Work Experiences
+   ========================================================================== */
+.box{
+  align-items: center;
+  display: flex;
+  height: 406px;
+  margin: 2rem 4.688rem 2.188rem;
+}
+
+.hangman-game__content, .counter__content{
+  flex-direction: row-reverse;
+}
+
+.info__content{
+  flex-direction: column;
+  margin-left: 1.875rem;
+  width: 348px;
+}
+
+.info__description, .card__description{
+  font-size: 1.375rem;
+  font-weight: bold;
+  margin-bottom: 0.625rem;
+}
+
+.info__text{
+  font-weight: 500;
+}
+
+.buttons{
+  margin-top: 0.625rem;
+}
+
+.btn__repositorio{
+  background-color: #E5E5E5;
+  border: 1px solid;
+  color: #2A7AE4;
+  cursor: pointer;
+  margin-right: 1rem;
+  padding: 1rem;
+}
+
+.btn__repositorio:hover{
+  background-color: #D4E4FA;
+  transition: 0.6s;
+}
+
+.btn__demo{
+  background-color: #2A7AE4;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  padding: 16px;
+}
+
+.btn__demo:hover{
+  background-color: #5595E9;
+  transition: 0.6s;
+}
+
+/* Area Contact
+   ========================================================================== */
+.contact{
+  background-color:#c4d4eb;
+  display: flex;
+  padding: 6.25rem 4.688rem 4rem;
+}
+
+.contact__content{
+  margin-left: 1rem;
+  width: 100%;
+}
+
+.contact__title{
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.contact__text{
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.375rem;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  height: 570px;
+  justify-content: space-between;
+}
+
+label{
+  font-size: 1.063rem;
+}
+
+label:first-child{
+  margin-top: 1.875rem;
+}
+
+.form__input{
+  border: none;
+  border-radius: 4px;
+  height: 56px;
+  margin-bottom: 1.25rem;
+  padding: 0.625rem;
+}
+
+.form__input:focus, .form__text:focus{
+  border-bottom: 1.5px solid #2A7AE4;
+}
+
+.form__text{
+  border: none;
+  border-radius: 4px;
+  height: 160px;
+  margin-bottom: 2rem;
+  padding: 0.625rem;
+}
+
+.form__btn{
+  background: #2a7ae4;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  height: 51px;
+  width: 165px;
+}
+
+.form__btn:hover{
+  background-color: #5595E9;
+  transition: 0.6s;
+}
+
+/* Area Footer
+   ========================================================================== */
+footer{
+  align-items: center;
+  background-image: url(../images/banner-rodape.png);
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.125rem;
+  font-weight: bold;
+  height: 80px;
+  justify-content: center;
+}
+

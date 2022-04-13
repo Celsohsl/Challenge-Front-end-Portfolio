@@ -5,222 +5,254 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+    <meta name="description"
+        content="Meu portfólio de desenvolvedor front end, faça uma visita e confira meus projetos.">
     <link rel="shortcut icon" href="./assets/images/portfolioicon.png" type="image/x-icon">
     <link rel="stylesheet" href="./assets/css/normalize.css">
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <title>Portfólio</title>
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/body.css">
+    <link rel="stylesheet" href="./assets/css/responsive/mobile.css">
+    <link rel="stylesheet" href="./assets/css/responsive/mobile-menu.css">
 </head>
 
 <body>
-    <!-- Topo -->
-    <header>
-        <div class="topo-area">
-            <div class="logo-nav">
-                <img src="./assets/images/logo.png" alt="logo da barra de navegação">
-                <p>Celso Lacerda</p>
+    <!-- Top-nav -->
+    <header class="header">
+        <div class="header__content">
+            <div class="header__logo">
+                <img class="header__image" src="./assets/images/logo.png"
+                    alt="icone da logo com tres pequenas estrelas">
+                <p class="header__name">Celso Lacerda</p>
             </div>
-            <div class="menu-nav">
-                <nav>
-                    <ul>
-                        <li><a href="#sobremim">Sobre mim</a></li>
-                        <li><a href="#skills">Skills</a></li>
-                        <li><a href="#hobbies">Hobbies</a></li>
-                        <li><a href="#formacao">Formação</a></li>
-                        <li><a href="#projetos">Projetos</a></li>
-                        <li><a href="mailto:celsohsl@gmail.com"> <strong>celsohsl@gmail.com</strong></a></li>
+            <div class="header-nav__content">
+                <nav class="navbar-menu" id="navbar">
+                    <button id="btn-mobile" aria-label="Abrir menu" aria-haspopup="true" aria-controls="lista"
+                        aria-expanded="false">Menu
+                        <span class="navbar-menu__hamburger"></span>
+                    </button>
+                    <ul class="nav-list" role="Menu">
+                        <li class="list__item"><a class="list__link" href="#sobremim">Sobre mim</a></li>
+                        <li class="list__item"><a class="list__link" href="#skills">Skills</a></li>
+                        <li class="list__item"><a class="list__link" href="#hobbies">Hobbies</a></li>
+                        <li class="list__item"><a class="list__link" href="#formacao">Formação</a></li>
+                        <li class="list__item"><a class="list__link" href="#projetos">Projetos</a></li>
+                        <li class="list__item"><a class="list__link" href="mailto:celsohsl@gmail.com">
+                                <strong>celsohsl@gmail.com</strong></a>
+                        </li>
                     </ul>
                 </nav>
             </div>
         </div>
     </header>
 
-    <!-- Topo apresentação -->
-    <section class="topo-apresentacao">
-        <div class="nome-apresentacao">
-            <h1>Olá, meu nome é Celso Lacerda e sou um desenvolvedor web front-end.</h1>
-            <p>Sou estudante autodidata, de desenvolvimento web Front-End, atualmente estou participando do projeto
-                Oracle Next Education na plataforma Alura.</p>
-            <ul class="redes-sociais">
-                <li><a href="https://github.com/Celsohsl">Github</a></li>
-                <li><a href="https://www.linkedin.com/in/celso-henrique-da-silva-lacerda-front-end/">Linkedin</a></li>
-                <li><a href="https://www.facebook.com/celso.lacerda.7186/">Facebook</a></li>
-                <li><a href="./assets/images/Celso curriculum.pdf">Currículo</a></li>
+    <!--Banner Area-->
+    <section class="banner">
+        <div class="banner__content">
+            <h1 class="banner__title">Olá, meu nome é Celso Lacerda e sou um desenvolvedor web front-end.</h1>
+            <p class="banner__description">Sou estudante autodidata, de desenvolvimento web Front-End, atualmente estou
+                participando do projeto Oracle Next Education na plataforma Alura.</p>
+            <ul class="banner__list">
+                <li class="banner__itens"><a class="banner__link" href="https://github.com/Celsohsl">Github</a></li>
+                <li class="banner__itens"><a class="banner__link"
+                        href="https://www.linkedin.com/in/celso-henrique-da-silva-lacerda-front-end/">Linkedin</a></li>
+                <li class="banner__itens"><a class="banner__link"
+                        href="https://www.facebook.com/celso.lacerda.7186/">Facebook</a></li>
+                <li class="banner__itens"><a class="banner__link"
+                        href="./assets/images/Celso curriculum.pdf">Currículo</a></li>
             </ul>
         </div>
-        <img class="foto-topo" src="./assets/images/celsojp.png" alt="foto do perfil de Celso Lacerda">
+        <img class="banner__Photograph" src="./assets/images/celsojp.png" alt="foto do perfil de Celso Lacerda">
     </section>
 
-    <!-- Main sobre mim -->
+    <!-- About me -->
     <main>
-        <div class="sobremim" id="sobremim">
-            <h2>Sobre mim</h2>
-            <p>
+        <div class="about-me">
+            <h2 class="about-me__title" id="sobremim">Sobre mim</h2>
+            <p class="about-me__description">
                 Comecei minha carreira profissional muito cedo, no setor industrial, como auxiliar de produção, mas não
                 deixei de estudar, cursei o ensino médio no período noturno, fiz alguns cursos, e continuei trabalhando
                 para ter meu próprio salário, e ajudar meus pais nas despesas de casa.
             </p>
-            <p>
+            <p class="about-me__description">
                 Atualmente estou seguindo meu sonho, me dedicando e estudando, para migrar para a área de tecnologia ,
                 buscando aprender boa prática de programação, já realizei um curso básico de front-end pelo Senac, mas
                 iniciei um novo estudo pela Alura, para alcançar meu objetivo de ser um bom programador e desenvolvedor
                 Front-End.
             </p>
-            <img src="./assets/images/assinatura.png" alt=" imagem da assinatura de Celso Lacerda">
+            <img class="about-me__image" src="./assets/images/assinatura.png"
+                alt=" imagem da assinatura de Celso Lacerda">
         </div>
 
-        <!-- Área skills/hobbies -->
+        <!-- Area skills / hobbies -->
         <section class="skills-hobbies">
-            <h2 id="skills">Skills</h2>
-            <div class="skills">
-                <div class="skill">
+            <h2 class="skills__title" id="skills">Skills</h2>
+            <div class="skills__content">
+                <div class="skill__card">
                     <i class="fa-brands fa-html5"></i>
-                    <p>Html5</p>
+                    <p class="skill__text">Html5</p>
                 </div>
-                <div class="skill">
+                <div class="skill__card">
                     <i class="fa-brands fa-css3-alt"></i>
-                    <p>Css3</p>
+                    <p class="skill__text">Css3</p>
                 </div>
-                <div class="skill">
+                <div class="skill__card">
                     <i class="fa-brands fa-js-square"></i>
-                    <p>JavaScript</p>
+                    <p class="skill__text">JavaScript</p>
                 </div>
-                <div class="skill">
+                <div class="skill__card">
                     <i class="fa-brands fa-git-alt"></i>
-                    <p>Git</p>
+                    <p class="skill__text">Git</p>
                 </div>
             </div>
-            <h2 id="hobbies">Hobbies</h2>
-            <div class="hobbies">
-                <div class="hobbie">
+
+            <h2 class="hobbies__title" id="hobbies">Hobbies</h2>
+            <div class="hobbies__content">
+                <div class="hobbie__card">
                     <i class="fa-solid fa-tv"></i>
-                    <p>Assistir filmes e séries</p>
+                    <p class="hobbie__text">Assistir filmes e séries</p>
                 </div>
-                <div class="hobbie">
+                <div class="hobbie__card">
                     <i class="fa-solid fa-screwdriver-wrench"></i>
-                    <p>Eletrônica</p>
+                    <p class="hobbie__text">Eletrônica</p>
                 </div>
-                <div class="hobbie">
+                <div class="hobbie__card">
                     <i class="fa-solid fa-gamepad"></i>
-                    <p>Jogar game</p>
+                    <p class="hobbie__text">Jogar game</p>
                 </div>
-                <div class="hobbie">
+                <div class="hobbie__card">
                     <i class="fa-solid fa-fish"></i>
-                    <p>Pescar</p>
+                    <p class="hobbie__text">Pescar</p>
                 </div>
             </div>
         </section>
 
-        <!-- Área formação -->
-        <section class="formacao-area">
-            <h2 id="formacao">Formação acadêmica</h2>
-            <div class="formacao">
+        <!-- Academic education -->
+        <section class="academic-education">
+            <h2 class="academic-education__title" id="formacao">Formação acadêmica</h2>
+            <div class="academic-education__content">
                 <div class="card">
-                    <div class="card-img"><img src="./assets/images/logo_senac.png" alt="imagem logo do senac"></div>
-                    <p>Produção de Wesites expert - Front-End</p>
-                    <span>2021 - Senac</span>
+                    <div class="card__img"><img src="./assets/images/logo_senac.png"
+                            alt="imagem logo do senac com fundo branco escrita em azul, com dois detalhes azul e laranja">
+                    </div>
+                    <p class="card__description">Produção de Wesites expert - Front-End</p>
+                    <span class="card__text">2021 - Senac</span>
                 </div>
                 <div class="card">
-                    <div class="card-img"><img src="./assets/images/alura.png" alt="imagem logo da alura"></div>
-                    <p>Formação Front-End Oracle Next Education</p>
-                    <span>Em andamento - Alura</span>
+                    <div class="card__img"><img src="./assets/images/alura.png"
+                            alt="imagem logo da alura com fundo branco e escrita em cinza escuro"></div>
+                    <p class="card__description">Formação Front-End Oracle Next Education</p>
+                    <span class="card__text">Em andamento - Alura</span>
                 </div>
             </div>
         </section>
 
-        <!-- Área experiencias -->
-        <section class="projetos">
-            <h2 id="projetos">Experiência profissional</h2>
-            <div class="projeto-codificador">
-                <div class="codificador-img"><img src="./assets/images/projetos_img/codificador .png"
-                        alt="imagem do projeto codificador"></div>
-                <div class="informacao">
-                    <p>Decodificador de texto</p>
-                    <span>Challenge Alura Codificador</span>
-                    <div class="botoes">
-                        <a href="https://github.com/Celsohsl/Challenge_Alura_Oracle_One_Iniciante_em_Programacao"><button
-                                class="btn-repositorio">Repositório</button></a>
-                        <a href="https://celsohsl.github.io/Challenge_Alura_Oracle_One_Iniciante_em_Programacao/"><button
-                                class="btn-demo">Ver demo</button></a>
+        <!-- Work experiences -->
+        <section class="projects">
+            <h2 class="project__title" id="projetos">Experiência profissional</h2>
+            <div class="crypto__content box">
+                <div class="crypto-image">
+                    <img class="crypto__image image" src="./assets/images/projetos_img/codificador .png"
+                        alt="imagem do projeto codificador">
+                </div>
+                <div class="info__content">
+                    <p class="info__description">Decodificador de texto</p>
+                    <span class="info__text">Challenge Alura Codificador</span>
+                    <div class="buttons">
+                        <a class="btn__link"href="https://github.com/Celsohsl/Challenge_Alura_Oracle_One_Iniciante_em_Programacao"><button
+                                class="btn__repositorio">Repositório</button></a>
+                        <a class="btn__link"href="https://celsohsl.github.io/Challenge_Alura_Oracle_One_Iniciante_em_Programacao/"><button
+                                class="btn__demo">Ver demo</button></a>
                     </div>
                 </div>
             </div>
-            <div class="projeto-jogo-forca">
-                <div class="jogo-forca-img"><img src="./assets/images/projetos_img/forca.png"
-                        alt="imagem do projeto jogo da forca"></div>
-                <div class="informacao">
-                    <p>Jogo criado com HTML, CSS e JavaScript</p>
-                    <span>Challenge Oracle</span>
-                    <div class="botoes">
-                        <a href="https://github.com/Celsohsl/Challenge-Oracle-ONE-Alura-Jogo-da-forca"><button
-                                class="btn-repositorio">Repositório</button></a>
-                        <a href="https://celsohsl.github.io/Challenge-Oracle-ONE-Alura-Jogo-da-forca/"><button
-                                class="btn-demo">Ver demo</button></a>
+            <div class="hangman-game__content box">
+                <div class="hangman-game-image">
+                    <img class="hangman-game__image image" src="./assets/images/projetos_img/forca.png"
+                        alt="imagem do projeto jogo da forca">
+                </div>
+                <div class="info__content">
+                    <p class="info__description">Jogo criado com HTML, CSS e JavaScript</p>
+                    <span class="info__text">Challenge Oracle</span>
+                    <div class="buttons">
+                        <a class="btn__link" href="https://github.com/Celsohsl/Challenge-Oracle-ONE-Alura-Jogo-da-forca"><button
+                                class="btn__repositorio">Repositório</button></a>
+                        <a class="btn__link"href="https://celsohsl.github.io/Challenge-Oracle-ONE-Alura-Jogo-da-forca/"><button
+                                class="btn__demo">Ver demo</button></a>
                     </div>
                 </div>
             </div>
-            <div class="projeto-clone-netflix">
-                <div class="clone-netflix-img"><img src="./assets/images/projetos_img/clone_netflix.png"
-                        alt="imagem do projeto carflix clone da netflix"></div>
-                <div class="informacao">
-                    <p>Projeto criado com HTML, CSS e JQuery</p>
-                    <span>Clone com base no site netflix, bootcamp da Digital Innovation One</span>
-                    <div class="botoes">
-                        <a href="https://github.com/Celsohsl/Recriando-a-inteface-da-Neflix"><button
-                                class="btn-repositorio">Repositório</button></a>
-                        <a href="https://celsohsl.github.io/Recriando-a-inteface-da-Neflix/"><button
-                                class="btn-demo">Ver demo</button></a>
+            <div class="carsflix__content box">
+                <div class="carsflix-image">
+                    <img class="carsflix__image image" src="./assets/images/projetos_img/clone_netflix.png"
+                        alt="imagem do projeto carflix clone da netflix">
+                </div>
+                <div class="info__content">
+                    <p class="info__description">Projeto criado com HTML, CSS e JQuery</p>
+                    <span class="info__text">Clone com base no site netflix, bootcamp da Digital Innovation One</span>
+                    <div class="buttons">
+                        <a class="btn__link"href="https://github.com/Celsohsl/Recriando-a-inteface-da-Neflix"><button
+                                class="btn__repositorio">Repositório</button></a>
+                        <a class="btn__link"href="https://celsohsl.github.io/Recriando-a-inteface-da-Neflix/"><button
+                                class="btn__demo">Ver demo</button></a>
                     </div>
                 </div>
             </div>
-            <div class="projeto-contador">
-                <div class="contador-img"><img src="./assets/images/projetos_img/contador_js.png"
-                        alt="imagem do projeto contador"></div>
-                <div class="informacao">
-                    <p>Projeto criado com HTML, CSS e JavaScript</p>
-                    <span>Exercício de introdução ao JavaScript,para o bootcamp da Digital Innovation One </span>
-                    <div class="botoes">
-                        <a href="https://github.com/Celsohsl/Introducao-ao-JavaScript-contador"><button
-                                class="btn-repositorio">Repositório</button></a>
-                        <a href="https://celsohsl.github.io/Introducao-ao-JavaScript-contador/"><button
-                                class="btn-demo">Ver
+            <div class="counter__content box">
+                <div class="counter-img">
+                    <img class="counter__image image" src="./assets/images/projetos_img/contador_js.png"
+                        alt="imagem do projeto contador">
+                </div>
+                <div class="info__content">
+                    <p class="info__description">Projeto criado com HTML, CSS e JavaScript</p>
+                    <span class="info__text">Exercício de introdução ao JavaScript,para o bootcamp da Digital Innovation
+                        One </span>
+                    <div class="buttons">
+                        <a class="btn__link"href="https://github.com/Celsohsl/Introducao-ao-JavaScript-contador"><button
+                                class="btn__repositorio">Repositório</button></a>
+                        <a class="btn__link"href="https://celsohsl.github.io/Introducao-ao-JavaScript-contador/"><button
+                                class="btn__demo">Ver
                                 demo</button></a>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Área-contato -->
-        <section class="contato">
-            <img src="./assets/images/contact-us.png" alt="imagem do formulario de contato">
-            <div class="contato-title">
-                <h2>Contato</h2>
-                <p>Quer entrar em contato comigo?</p>
-                <p>Preencha o formulário a baixo e entrarei em contato o mais rápido possível.</p>
-                <form>
-                    <label for="nomesobrenome">Nome e sobrenome</label>
-                    <input type="text" id="nomesobrenome" class="input-padrao" required>
+        <!-- Area Contact -->
+        <section class="contact">
+            <img class="contact__image" src="./assets/images/contact-us.png" alt="imagem do formulario de contato">
+            <div class="contact__content">
+                <h2 class="contact__title">Contato</h2>
+                <p class="contact__text">Quer entrar em contato comigo?</p>
+                <p class="contact__text">Preencha o formulário a baixo e entrarei em contato o mais rápido possível.</p>
+                <form action="" class="form" name="form">
+                    <label for="nome">Nome</label>
+                    <input type="text" name="nome" class="form__input">
 
                     <label for="email">Email</label>
-                    <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+                    <input type="text" name="email" class="form__input" placeholder="seuemail@dominio.com">
 
                     <label for="assunto">Assunto</label>
-                    <input type="text" id="assunto" class="input-padrao" required>
+                    <input type="text" name="assunto" class="form__input" placeholder="No máximo 50 caracteres">
 
                     <label for="mensagem">Mensagem</label>
-                    <textarea name="" id="mensagem" cols="70" rows="10" class="input-texto" required></textarea>
-
-                    <button type="submit" class="btn-enviar">Enviar<i class="fa-solid fa-paper-plane"></i></button>
+                    <textarea name="mensagem" id="mensagem" cols="70" rows="10" class="form__text"
+                        placeholder="No máximo 300 caracteres"></textarea>
+                    <button type="submit" id="enviar" class="form__btn">Enviar</button>
                 </form>
             </div>
         </section>
     </main>
-
-    <!-- Rodapé -->
+    <!-- Area Footer -->
     <footer>
         <p>Desenvolvido por Celso Lacerda</p>
         <span>&copy; 2022</span>
     </footer>
+
+    <script src="./assets/js/menuMobile.js"></script>
+    <script src="./assets/js/contactForm.js"></script>
     <script src="https://kit.fontawesome.com/bc12539857.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.8/dist/sweetalert2.all.min.js"></script>
 </body>
 
 </html>
