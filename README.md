@@ -2,19 +2,19 @@
 
 
 <div align ="center">
- <img  src="https://github.com/Celsohsl/Challenge-Front-end-Portfolio/blob/main/readme-img/banner-topo.jpg" />
+ <img  src="https://github.com/Celsohsl/Challenge-Front-end-Portfolio/blob/main/assets/images/readme-img/banner-topo.jpg" />
 </div> 
 
 <h2 align ="center">Screenshot</h2>
 
 
 <div align ="center">
- <img src="https://github.com/Celsohsl/Challenge-Front-end-Portfolio/blob/main/readme-img/main.png" />
+ <img src="https://github.com/Celsohsl/Challenge-Front-end-Portfolio/blob/main/assets/images/readme-img/main.png" />
 </div>
  
  
 <h2 align ="center">Sobre o desafio 📜<br>
-Primeiro Challenge de Front End, construir um Portfólio!</h2>
+Primeiro Challenge de Front End, construir meu Portfólio!</h2>
 
 ### Projeto:  
 **Requisitos**
