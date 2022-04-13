@@ -14,7 +14,7 @@
  
  
 <h2 align ="center">Sobre o desafio 📜<br>
-Primeiro Challenge de Front End, construir um Portfólio!</h2>
+Primeiro Challenge de Front End, construir meu Portfólio!</h2>
 
 ### Projeto:  
 **Requisitos**
