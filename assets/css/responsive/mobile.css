@@ -185,3 +185,10 @@
   }
 
 }
+
+@media screen and (min-width: 610px){
+  .banner__Photograph {
+    width: 25%;
+  }
+    
+}
