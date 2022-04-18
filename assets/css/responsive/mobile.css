@@ -10,7 +10,6 @@
     align-items: flex-start;
     background: none;
     flex-direction: column-reverse;
-    height: 420px;
     padding: 0 1rem;
   }
 
@@ -81,19 +80,15 @@
   }
 
   .skills__content, .hobbies__content{
-    column-gap: 1rem;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    height: 100%;
+    flex-wrap: wrap;
     margin: 0;
     padding: 2rem 0;
-    row-gap: 2rem;
   }
   
   .skill__card, .hobbie__card{
-    height: 100%;
-    padding: 2.375rem 1rem 1rem 1rem;
-    width: auto;
+    height: 140px;
+    width: 48%;
+    margin-bottom: 16px;
   }
 
   /* Academic Education 
