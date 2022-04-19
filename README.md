@@ -33,7 +33,7 @@ Primeiro Challenge de Front End, construir meu Portfólio!</h2>
 
 #
 <div align="center">
-  <img height="300px" width="300px" src=""/>
+  <img src="https://github.com/Celsohsl/Challenge-Front-end-Portfolio/blob/main/assets/images/readme-img/badge-portfolio300x300.png"/>
   <h2 align="center">Badge conquistada com esse projeto.</h2>
 </div
  
