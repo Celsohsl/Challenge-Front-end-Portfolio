@@ -32,6 +32,12 @@ Primeiro Challenge de Front End, construir meu Portfólio!</h2>
 - A página deve conter um botão que permita visualizar, em uma nova aba, uma versão em PDF do seu currículo.
 
 #
+<div align="center">
+  <img height="300px" width="300px" src=""/>
+  <h2 align="center">Badge conquistada com esse projeto.</h2>
+</div
+ 
+#
 ### Links Úteis:
 [Challenge Oracle ONE Front-end](https://www.alura.com.br/challenges/oracle-one-front-end/semana01e02-do-figma-ao-html-e-css) |
 [Projeto no Figma](https://www.figma.com/file/Mv4mSxBHzB5caI7bW2tLv6/Challenge-Front-end-Portf%C3%B3lio?node-id=85%3A295)
