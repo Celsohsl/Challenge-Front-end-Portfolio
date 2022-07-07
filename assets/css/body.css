@@ -223,7 +223,7 @@
     margin: 2rem 4.688rem 2.188rem;
   }
   
-  .hangman-game__content, .counter__content{
+  .hangman-game__content, .counter__content, .conversor__content{
     flex-direction: row-reverse;
   }
   
