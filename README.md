@@ -13,6 +13,10 @@
 </div>
  
  
+
+https://user-images.githubusercontent.com/95981981/164583329-56acb187-c32e-4e41-8536-34332edadf10.mov
+
+
 <h2 align ="center">Sobre o desafio 📜<br>
 Primeiro Challenge de Front End, construir meu Portfólio!</h2>
 
@@ -46,14 +50,23 @@ Primeiro Challenge de Front End, construir meu Portfólio!</h2>
   
 
 <p align="left">
-  💻<strong> Skills:</strong>  HTML | CSS | 
+  💻<strong> Skills:</strong>      
+ <img align="center" alt="Celso-HTML" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
+ <img align="center" alt="Celso-CSS"  src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
+ <img align="center" alt="Celso-Js" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
 </p>
 
 <p align="left">
-  🛠<strong> Ferramentas:</strong> VS Code | Figma | GitHub.
+  🛠<strong> Ferramentas:</strong>
+ <img align="center" src="https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white">
+ <img align="center" src="https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=write">
+ <img align="center" src="https://img.shields.io/badge/Trello-%23026AA7.svg?style=for-the-badge&logo=Trello&logoColor=white">
+ <img align="center" src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white">
+ <img align="center" src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white">
 </p>
 
+#
+
 <p align="left">
-  <a href="https://www.linkedin.com/in/celso-henrique-da-silva-lacerda-front-end/" alt="Linkedin">
-  <img src="https://img.shields.io/badge/-Linkedin-0e76a8?style=flat-square&logo=Linkedin&logoColor=white&link=LINK-DO-SEU-LINKEDIN" /></a>
+  <a href="https://www.linkedin.com/in/celso-henrique-da-silva-lacerda-front-end/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
 </p>
