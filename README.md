@@ -9,6 +9,7 @@
 
 
 <div align ="center">
+ <img src="https://github.com/Celsohsl/Challenge-Front-end-Portfolio/blob/main/assets/images/readme-img/portfolio_top.png" /></br>
  <img src="https://github.com/Celsohsl/Challenge-Front-end-Portfolio/blob/main/assets/images/readme-img/main.png" />
 </div>
  
